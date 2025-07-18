@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Herraamienta de automatizacion de comprobantes de pago.">
+    <title>Comprobantes de Pagos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Subir comprobante</h1>
+    <form id="formulario">
+        <label  class="boton" id="boton">Subir archivo excel (.xlsx)</label>
+        <input type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" id="inputFile" hidden>
+        <input type="submit" class="btn_submit" value="Enviar">
+    </form>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
