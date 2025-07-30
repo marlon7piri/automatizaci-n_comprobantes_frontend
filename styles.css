@@ -85,5 +85,14 @@ form a {
     outline: none;
     padding: 1rem;
     border-radius: .3rem;
+    color:#ecf0f1;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn_submit:hover{
+    background-color: #3498db;
+    padding: 1rem;
+    border-radius: .3rem;
     color:#ecf0f1
 }
