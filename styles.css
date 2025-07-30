@@ -25,10 +25,7 @@ body{
     visibility: hidden;
 }
 
-#download_plantilla{
-    color:white;
-    text-decoration: none;
-}
+
 
 #loader{
     width: 50px;
@@ -61,6 +58,11 @@ form{
     flex-direction: column;
     gap:1rem;
     
+}
+
+form a {
+    color: white !important;
+    text-decoration: none;
 }
 
 .boton{
